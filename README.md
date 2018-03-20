@@ -1,0 +1,1 @@
+## JavaScript Coding Exercises for the Bottega Code School
