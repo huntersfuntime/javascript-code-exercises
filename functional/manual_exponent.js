@@ -1,7 +1,7 @@
 const toThePowerOf = (num, exp) => {
   const items = Array(exp).fill(num);
   const reducer = (accumulator, currentValue) => accumulator * currentValue;
-  return items.reduce(reducer);
+  return items.reduce(reducer, 1);
 };
 
 toThePowerOf(2, 3); //?
